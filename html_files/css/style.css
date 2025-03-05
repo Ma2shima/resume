@@ -1,0 +1,26 @@
+
+.wpcf7-response-output.wpcf7-validation-errors{
+padding-top:30px;
+color:#ff0000;
+text-align:center;
+}
+.wpcf7-not-valid-tip-no-ajax{
+color:#ff0000;
+}
+.wpcf7-response-output.wpcf7-mail-sent-ok{
+padding-top:30px;
+text-align:center;
+}
+input. wpcf7-captchar{
+vertical-align:middle;
+}
+.ninsho{
+text-align:center;
+padding-bottom:20px;
+}
+.ninsho img{
+vertical-align:middle;
+}
+.redtext{
+color:#CC0000;
+}

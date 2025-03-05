@@ -1,0 +1,379 @@
+@charset "utf-8";
+body{
+	background-repeat:no-repeat;
+	}
+img {
+	max-width: 100%;
+	height: auto;
+	width /***/: auto;
+}
+#mti_wfs_colophon a{
+	display:none;
+	}
+#wrap{
+	position: relative;
+	width:100%;
+	padding-bottom:0;
+	}
+#home #wrap{
+	padding:1280px 0 0 0;
+	}
+#header{
+	width:100%;
+	height:100px;
+
+	background:rgba(204,204,204,0.9);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#00cccccc,EndColorStr=#00cccccc);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#90cccccc,EndColorStr=#90ccccccc)";
+	line-height:1;
+	}
+#home #header{
+	position:fixed;
+	bottom:0;
+	left:0;
+	}
+#home #header.topfixed{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:8888;
+	}
+#header2{
+	display:none;
+	}
+#header #gnav{
+	width:940px;
+	margin:0 auto;
+	}
+#header #gnav h1{
+	float:left;
+	width:181px;
+	margin-top:32px;
+	}
+#header #gnav ul{
+	float:right;
+	width:auto;
+	}
+#header #gnav ul li{
+	position:relative;
+	float:left;
+	display:inline;
+	margin:45px 0 0 30px;
+	padding-bottom:1px;
+	text-decoration:none;
+	font-family:'HelveticaWorldW01', Arial;
+	font-weight:bold;
+	line-height:1;
+	}
+#header #gnav ul li a{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	}
+#header #gnav a{
+	color:#CC0000;
+	text-decoration:none;
+	}
+#header #gnav a:visited{
+	color:#CC0000;
+	text-decoration:none;
+	}
+#header #gnav a:hover{
+	color:#e2585e;
+	text-decoration:none;
+	}
+#header #gnav ul li ul#contactsMenu{
+	position:absolute;
+	display:block;
+	bottom:59px;
+	left:-222px;
+	display:none;
+	width:420px;
+	height:117px;
+	padding:18px 20px;
+	background:#eee;
+	z-index:9999;
+	}
+#header.topfixed #gnav ul li ul#contactsMenu{
+	top:55px;
+	}
+#header #gnav li li{
+	float:none;
+	display:block;
+	margin:0 0 15px 0;
+	font-weight:normal;
+	}
+#header #gnav li li img{
+	margin:0 0 5px 0;
+	}
+#header #gnav li li.tit{
+	font-size:139%;
+	font-weight:bold;
+	}
+#header #gnav li li.sub{
+	margin-left:3px;
+	font-weight:bold;
+	}
+#header #gnav li li.sub a{
+	display:inline-block;
+	margin-top:7px;
+	font-weight:normal;
+	font-size:93%;
+	}
+#header #gnav li li.close{
+	position: absolute;
+	bottom: 10px;
+	right:10px;
+	width:11px;
+	height:11px;
+	margin:0;
+	}
+#header #gnav li li.close a,
+#header #gnav li li.close a:visited,
+#header #gnav li li.close a:hover{
+	color:#333;
+	}
+#footer{
+	width:100%;
+	height:40px;
+	background:#eee;
+	line-height:1;
+	}
+#footer.btmFixed{
+	position:fixed;
+	bottom:0;
+	left:0;
+	}
+#footer .ftin{
+	width:940px;
+	margin:0 auto;
+	padding-top:15px;
+	font-size:85%;
+	}
+#footer #copyright{
+	float:right;
+	}
+#footer ul{
+	float:left;
+	}
+.contents h1{
+	clear:both;
+	font-size:231%;
+	font-weight:bold;
+	}
+.contents h2{
+	clear:both;
+	font-size:185%;
+	font-weight:bold;
+	}
+#pagetop{
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	width:39px;
+	text-align:right;
+	z-index:9999;
+	}
+/*list */
+#list{
+	width:100%;
+	margin:0 0 0 0;
+	min-height:0px;
+	background:#FFF;
+	}
+#list h1{
+	margin-bottom:10px;
+	}
+#list h2{
+	margin-bottom:30px;
+	}
+#list .listin{
+	width:800px;
+	margin:0 auto;
+	padding:0px 0 0 0;
+	}
+
+#list .listin .contact{
+	padding-bottom:45px;
+	}
+#list .listin .contact dl{
+	margin:0 0 25px 160px;
+	line-height:24px;
+	}
+#list .listin .contact dt{
+	font-size:108%;
+	font-weight:bold;
+	}
+#list .listin .store dl{
+	line-height:24px;
+	}
+#list .listin .store dt{
+	float:left;
+	display:inline-block;
+	width:155px;
+	padding-left:5px;
+	font-weight:bold;
+	font-size:108%;
+	color:#cc0000;
+	}
+/* works */
+#works{
+	width:100%;
+	margin:0;
+	padding-bottom:0px;
+	background:#FFF;
+	}
+#works h1{
+	margin-bottom:10px;
+	}
+#works h2{
+	margin-bottom:30px;
+	}
+#works .worksin{
+	width:800px;
+	margin:0 auto;
+	padding:60px 0 0 0;
+	}
+#works .worksmain{
+	margin-bottom:25px;
+	}
+#works .worksmain img{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #ddd;
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+	border-left-color: #ddd;
+	}
+
+#video {
+	border:0;
+    max-width: 100%;
+    height: auto;
+	}
+
+#works .date{
+	margin-bottom:25px;
+	font-size:93%;
+	font-weight:bold;
+	}
+#works .title{
+	margin-bottom:10px;
+	font-size:150%;
+	line-height:1.3em;
+	}
+#works .body p{
+	margin-bottom:25px;
+	font-size:100%;
+	line-height:1.8em;
+	}
+#works .body img{
+	border:0;
+	}
+#works .body img.nobd{
+	border:0;
+	}
+.article{
+	display:block;
+	clear:both;
+	margin-bottom:60px;
+	}
+.article .body img.fLeft{
+	float:left;
+	margin:0 20px 20px 0;
+	}
+.article .body img.fRight{
+	float:right;
+	margin:0 0 20px 20px;
+	}
+.article .body a{
+	color:#CC0000;
+	text-decoration:none;
+	}
+.article .body a:visited{
+	color:#CC0000;
+	text-decoration:none;
+	}
+.article .body a:hover{
+	color:#e2585e;
+	text-decoration:none;
+	}
+
+.article .body:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.article .body  {display: inline-block;} /* Hides from IE-mac \*/ * html .article .body{height: 1%;}
+.article .body {display: block;} /* End hide from IE-mac */
+
+/* info */
+#info{
+	width:100%;
+	margin:0;
+	background:#FFF;
+	}
+#info h1{
+	margin-bottom:30px;
+	}
+#info h2{
+	margin-bottom:30px;
+	}
+#info .comin{
+	width:780px;
+	margin:0 auto;
+	padding:155px 0 0 0;
+	}
+#info #contact{
+	padding-bottom:100px;
+	}
+#info #contact p{
+	margin-bottom:30px;
+	line-height:1.8em;
+	}
+#info .profile{
+	margin-bottom:60px;
+	}
+#info .profile h2{
+	margin-top:50px;
+	margin-bottom:20px;
+	}
+#info .profile h3{
+	margin-bottom:8px;
+	font-size:124%;
+	}
+#info .profile table{
+	margin-bottom:20px;
+	}
+#info .profile p{
+	margin-bottom:20px;
+	}
+#info .profile .mb20{
+	margin-bottom:20px;
+	}
+#info .profile .mb30{
+	margin-bottom:30px;
+	}
+#info .profile .mb40{
+	margin-bottom:40px;
+	}
+#info .profile td,
+#info .profile th{
+	padding-bottom:5px;
+	}
+#info .profile sup{
+	vertical-align:2px;
+	}
+#info .profile th{
+	font-weight:normal;
+	padding-right:10px;
+	vertical-align:top;
+	white-space:nowrap;
+	}
+
+
+#contactsBlock{
+	display:none;
+	}

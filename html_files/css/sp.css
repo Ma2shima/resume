@@ -1,0 +1,163 @@
+@charset "utf-8";
+body, html{
+	-webkit-text-size-adjust: 100%;
+}
+#header{
+	height:140px;
+	margin:0;
+	padding:0;
+	}
+header #gnav{
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+#header #gnav h1{
+	float:none;
+	width:181px;
+	margin:15px auto;
+	}
+
+#home #header{
+	position:fixed;
+	top:0;
+	left:0;
+	}
+#header #gnav ul{
+	float:none;
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+#header #gnav ul li{
+	float:left;
+	width:33%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	}
+#header #gnav ul li a{
+	float:left;
+	width:100%;
+	display:block;
+	margin:0;
+	padding:10px 0;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	}
+
+#list .listin .contact dl{
+	margin:0 0 15px 0;
+	}
+#list .listin .store{
+	margin-top:50px;
+	}
+#list .listin .store dt{
+	float:none;
+	width:auto;
+	}
+#list .listin .store dd{
+	float:none;
+	width:100%;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	}
+
+#header #gnav ul li ul#contactsMenu{
+	bottom:0;
+	left:10px;
+	width:240px;
+	}
+#header.topfixed #gnav ul li ul#contactsMenu{
+	top:0;
+	}
+#header #gnav li li{
+	float:none !important;
+	text-align:left;
+	}
+#header #gnav li li.tit{width:200px;}
+#header #gnav li li.sub{
+	width:100%;
+	margin:0;
+	padding:0 20px 0 0;
+	font-weight:bold;
+	}
+#header #gnav li li.sub a{
+	margin-top:0;
+	}
+#header #gnav li li.close{
+	position: absolute;
+	bottom: 20px;
+	right:10px;
+	width:11px;
+	height:11px;
+	margin:0;
+	padding:0;
+	}
+/* header2 */
+#header{
+	display:none;
+	}
+#header2{
+	display:block;
+	width:96%;
+	padding:10px 2%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgb(204,204,204);
+	filter: Alpha(opacity=90);
+	background:rgba(204,204,204,0.9);
+	line-height:1;
+	z-index:9999 !important;
+	}
+#header2 h1{
+	float:left;
+	}
+#header2 .nav{
+	float:right;
+	}
+#header2 .menu a{
+	display:block;
+	width:24px;
+	height:24px;
+	margin-top:4px;
+	background:#999;
+	border-radius:2px;
+	color:#FFF;
+	}
+#header2 .menulist{
+	display:none;
+	}
+#header2 .menulist{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:auto;
+	background: #666;
+	opacity:0.8;
+	z-index:9999;
+	color:#FFF;
+	}
+#header2 .menulist li a{
+	display:block;
+	padding:15px 0;
+	text-align:center;
+	color:#FFF;
+	border-bottom:1px solid #999;
+	font-size:116%;
+	letter-spacing:1px;
+	}
+
+#contactsBlock{
+	display:block;
+	}

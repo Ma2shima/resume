@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+
+body{
+	margin:0;
+	padding:0;
+	font:13px 'Helvetica World W01',Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	line-height:1.4em;
+	color:#666;
+	}
+
+h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,form,input{
+	margin:0;
+	padding:0;
+	}
+
+p{
+	margin:0;
+	padding:0;
+	}
+
+li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+img{
+	border:0;
+	}
+
+hr{
+	display:none;
+	}
+	
+a, a:link{
+	color:#666;
+	text-decoration:none;
+	}
+a:visited{
+	color:#666;
+	text-decoration:none;
+	}
+a:hover{
+	color:#666;
+	text-decoration:none;
+	}
+
+table{
+	font-size:100%;
+}
+	
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.group  {display: inline-block;} /* Hides from IE-mac \*/ * html .group{height: 1%;}
+.group {display: block;} /* End hide from IE-mac */
+
+.btn{
+	border:0;
+	}
+
+.clear{
+	clear:both;
+	}
+
+.hide{
+	display:none;
+	}
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: block;}
+
+.aligncenter{
+	text-align:center;
+	}
+
+/*
+Font-size list (base: 13px)
+ 62% =  8px
+ 70% =  9px
+ 77% = 10px
+ 85% = 11px        162% = 21px        239% = 31px
+ 93% = 12px        170% = 22px        247% = 32px
+100% = 13px        177% = 23px        254% = 33px
+108% = 14px        185% = 24px        262% = 34px
+116% = 15px        193% = 25px        270% = 35px
+124% = 16px        200% = 26px        277% = 36px
+131% = 17px        208% = 27px        285% = 37px
+139% = 18px        216% = 28px        293% = 38px
+147% = 19px        224% = 29px        300% = 39px
+154% = 20px        231% = 30px        308% = 40px
+*/
