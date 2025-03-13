@@ -69,7 +69,7 @@ document.addEventListener('mousemove', function () {
         x.removeClass("hover");
     });
     chat.on("mouseenter", function () {
-        x.html('chat');
+        x.html('mail');
         x.addClass("hover");
     });
     chat.on("mouseleave", function () {
